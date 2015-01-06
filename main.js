@@ -1,9 +1,7 @@
 /* CUSTOM JQUERY CODE */
 
 $(function() {
-$('#topMenuWrapper').affix({
-  offset: {
-    top: 50
-  }
-});
+
+$.localScroll({offset:-50});
+
 });
