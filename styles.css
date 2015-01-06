@@ -1,3 +1,12 @@
-#topMenuWrapper {
-	z-index: 1000;
+body {
+    padding-top: 50px;
+}
+
+@media (min-width: 768px){
+    .navbar-nav{
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+        float:none;
+    }
 }
