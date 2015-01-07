@@ -36,3 +36,8 @@ body {
         float:none;
     }
 }
+
+footer {
+margin-top: 100px;
+    height: 50px;
+}
