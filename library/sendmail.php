@@ -57,6 +57,6 @@
   }
 
   //try to send the message
-  echo json_encode(array('message' => 'Your message was successfully submitted.'));
+  echo json_encode(array('message' => 'Votre message a été envoyé.'));
   mail(MY_EMAIL, EMAIL_SUBJECT, $messageBody, "From: $email");
 ?>
