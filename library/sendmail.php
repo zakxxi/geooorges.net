@@ -3,7 +3,7 @@
   session_start();
 
   //add you e-mail address here
-  define("MY_EMAIL", "adrien@abrege.net");
+  define("MY_EMAIL", "georges@geooorges.net");
   define("EMAIL_SUBJECT", "Formulaire de contact geooorges.net");
 
   //a map of fields to include in email, along with if they are required or not
