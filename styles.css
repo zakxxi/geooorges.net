@@ -71,9 +71,13 @@ h3 {
 
 
 footer {
-margin-top: 100px;
-    height: 50px;
+margin-top: 80px;
+    height: 80px;
+    padding-top: 30px;
+    background-color: #222222;
+    color: #9d9d9d;
 }
+
 
 #logoGeorges {
     position: absolute;
