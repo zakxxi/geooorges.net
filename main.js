@@ -1,9 +1,13 @@
 /* CUSTOM JQUERY CODE */
 
 $(function() {
-$('#topMenuWrapper').affix({
-  offset: {
-    top: 50
-  }
+
+$.localScroll({offset:-50});
+
+$('#topCarousel').carousel({
+	interval: 4000,
+	pause: "false"
+
 });
+
 });
