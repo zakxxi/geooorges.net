@@ -1,8 +1,7 @@
 /* CUSTOM JQUERY CODE */
 
-$(function() {
+$( document ).ready(function() {
 
-$.localScroll({offset:-50});
 
 $('#topCarousel').carousel({
 	interval: 4000,
@@ -22,5 +21,8 @@ function close_toggle() {
 close_toggle();
 
 $(window).resize(close_toggle);
+
+
+$.localScroll({offset:-50});
 
 });
